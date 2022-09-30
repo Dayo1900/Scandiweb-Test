@@ -22,7 +22,6 @@
 </head>
 
 <body>
-    
 <div class="parent">
 
 <p class="class-00"> Product Add</p>
