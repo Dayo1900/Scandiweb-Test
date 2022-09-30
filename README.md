@@ -4,7 +4,7 @@ A portfolio project.
 It consist of two pages
 
 
-1) Product list page: Users can view all registered products
+1) Product list page: Users can view all added products
 
 
 2) Product Add page: Users can add new products for viewing
