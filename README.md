@@ -1,5 +1,6 @@
 # Scandiweb-Test
-A portfolio project
+A portfolio project.
+
 It consist of two pages
 
 
