@@ -1,0 +1,6 @@
+ const productForm = document.getElementById("product_form");
+
+ var remove = productForm.getElementsByTagName('input');
+ var number = remove.length;
+ for( var i=0; i<=number; i++) {
+ remove[i].value = " ";
