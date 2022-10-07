@@ -49,7 +49,7 @@ height: auto;
 display: flex;
 flex-direction: row;
 justify-content: space-around;
-padding: 0 2%;
+padding: 0;
 }
 
 .class-3
@@ -64,6 +64,7 @@ padding-left: 1%;
 {
 z-index: 1;
 width: 8%; 
+padding:0 1%;
 border-radius: 0.5em;
 background-color: white;
 border: 1px solid black;
@@ -97,12 +98,13 @@ box-sizing: content-box;
 
 .class-6
 {
-width: 95%;
-height: 2rem;
+width: 96%;
+height: 2.25rem;
 display: block;
 margin: auto;
 border-bottom: 2px solid black;
 }
+
 
 .class-7
 {
@@ -135,30 +137,15 @@ text-decoration: none;
 
 .class-8
 {
-width: 5.2em;
-height: 1rem;
+width: 5em;
+height: 1.07rem;
 position: relative;
 top: -0.2em;
-right: 1.1em;
+right: 0.4em;
 float: right;
 background-color: black;
 border: 5px solid black;
 z-index: 1;
-}
-
-#delete-product-btn
-{
-border: 1px solid black;
-float: right;
-position: relative;
-top: -0.4rem;
-right: -5.5em;
-z-index: 2;
-height: auto;
-width: auto;
-padding: 0.4em;
-background-color: white;
-display: inline-block;
 }
 
 .class-7b:hover, #delete-product-btn:hover, .class-11b:hover, .class-12b:hover, .class-4:hover
@@ -183,25 +170,14 @@ box-sizing: content-box;
 .class-9b
 {
 height: 8em;
-width: 30%;
+width: 40%;
 margin: auto;
 border: 1px solid black;
 display: inline-block;
 box-sizing: border-box;
 padding: 1%;
+margin: 1.5%;
 text-align: center;
-margin: 3%;
-}
-
-#delete-checkbox
-{
-float: left;
-margin: auto;
-}
-
-#delete-checkbox:hover
-{
-outline: 3px solid #e6e6e6;
 }
 
 .class-10
@@ -223,7 +199,6 @@ margin-top: -0.5em;
 #delete-checkbox
 {
 float: left;
-margin: auto;
 }
 
 #delete-checkbox:hover
@@ -281,26 +256,41 @@ background-color: black;
 border: 5px solid black;
 float: right;
 position: relative;
-top: -0.3rem;
-right: 0.6em;
+top: -1.2em;
+right: -4.6em;
 z-index: 1;
-height: 1.1rem;
-width: 2.1rem;
+height: 0.9rem;
+width: 1.6rem;
 }
 
 .class-12b
 {
 border: 1px solid black;
-float: right;
-z-index: 2;
+box-shadow: 1px 1px 1px black;
+float: left;
 height: auto;
 width: auto;
-padding: 0.4em;
-position: relative;
-top: -0.5rem;
-right: -2.4em;
+margin: auto;
+padding: 0.5em;
 background-color: white;
 color: black;
+text-decoration: none;
+font-size:0.8em;
+}
+
+.class-12c
+{
+border: 1px solid black;
+box-shadow: 1px 1px 1px black;
+float: right;
+height: auto;
+width: auto;
+margin:auto;
+padding:0.5em;
+background-color: white;
+color: black;
+text-decoration: none;
+font-size:0.8em;
 }
 
 .class-13
@@ -349,7 +339,7 @@ box-sizing: content-box;
 .class-15b
 {
 display: block;
-width: 90%;
+width: 100%;
 height: 4rem;
 margin: 1em auto 1.5em auto;
 z-index:4;
@@ -358,10 +348,10 @@ position:relative;
 
 .class-16
 {
-width:88%;
+width:99%;
 height: auto;
 display: block;
-padding:0.5em 1em;
+padding:0.5em 0;
 margin: auto;
 border: 1px solid black;
 text-align: center;
@@ -406,10 +396,10 @@ top: -10em;
 display: block;
 visibility: visible;
 position: relative;
-top: 1.5em;
+top: -1em;
 width: 95%;
 height: 2.5rem;
-margin-left:2em;
+margin: auto;
 }
 
 #Furniture:target
@@ -417,10 +407,10 @@ margin-left:2em;
 display: block;
 visibility: visible;
 position: relative;
-top: -6em;
+top: -1em;
 width: 95%;
 height: 11rem;
-margin-left:2em;
+margin: auto;
 }
 
 #Book:target
@@ -428,10 +418,10 @@ margin-left:2em;
 display: block;
 visibility: visible;
 position: relative;
-top: -2em;
+top: -1em;
 width: 95%;
 height: 2.5rem;
-margin-left:2em;
+margin: auto;
 }
 
 .class-17
@@ -487,3 +477,26 @@ height:3rem;
 {
 display: none; 
 }
+
+.class-19
+{
+    float: right;
+    padding-right: 0.5em;
+    height:100%;
+    width:35%;
+} 
+
+.class-19b
+{ float: right;
+   padding-right:0.5em;
+   height:100%;
+   width:50%;
+   box-sizing: content-box;
+}
+
+
+
+
+
+
+
