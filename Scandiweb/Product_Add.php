@@ -80,64 +80,62 @@
                     </div>
 
 
-<div class="class-15b">
-<input id="productType" class="class-16" onclick="cancel()" type="button" value="Select Product">
-</div>
+                    <div class="class-15b">
+                        <input id="productType" class="class-16" onclick="cancel()" type="button" value="Select Product">
+                    </div>
 
-<div id="buttonDiv" class="class-16b"> 
-<p class="class-17c"> </p>
+                    <div id="buttonDiv" class="class-16b"> 
+                        <p class="class-17c"> </p>
 
-<span class="class-17b">
-<i class="class-18b"> DVD </i>
-<a class="class-17" href="#DVD"> </a>
-</span>
+                        <span class="class-17b">
+                           <i class="class-18b"> DVD </i>
+                           <a class="class-17" href="#DVD"> </a>
+                        </span>
 
-<span class="class-17b">
-<i class="class-18b"> Furniture </i>
-<a class="class-17" href="#Furniture"> </a>
-</span>
+                        <span class="class-17b">
+                            <i class="class-18b"> Furniture </i>
+                            <a class="class-17" href="#Furniture"> </a>
+                        </span>
 
-<span class="class-17b">
-<i class="class-18b"> Book </i>
-<a class="class-17" href="#Book"> </a>
-</span>
-</div>
+                        <span class="class-17b">
+                            <i class="class-18b"> Book </i>
+                            <a class="class-17" href="#Book"> </a>
+                        </span>
+                    </div>
 
-<div id="root">
-<div id="DVD">
-<span class="class-18d"> Size(MB)</span>
-<input type="number" title="DVD size" id="size" name="size" class="class-14b" placeholder="Enter DVD size">
-</div>
+                    <div id="root">
+                        <div id="DVD">
+                            <span class="class-18d"> Size(MB)</span>
+                                <input type="number" title="DVD size" id="size" name="size" class="class-14b" placeholder="Enter DVD size">
+                        </div>
 
-<div id="Book">
-<span class="class-18d"> Weight(kg)</span>
-<input type="number" title="Book weight" id="weight" name="weight" class="class-14b" placeholder="Enter weight">
-</div>
+                    <div id="Book">
+                        <span class="class-18d"> Weight(kg)</span>
+                        <input type="number" title="Book weight" id="weight" name="weight" class="class-14b" placeholder="Enter weight">
+                    </div>
 
-<div id="Furniture">
-<input type="number" style="margin-bottom:1em;" title="Height" id="height" name="height" class="class-14b" placeholder="Enter height">
-<label class="class-18d"> Height(cm)</label>
+                    <div id="Furniture">
+                        <input type="number" style="margin-bottom:1em;" title="Height" id="height" name="height" class="class-14b" placeholder="Enter height">
+                        <label class="class-18d"> Height(cm)</label>
 
-<input type="number" style="margin-bottom:1em;" title="Length" id="length" name="length" class="class-14b" placeholder="Enter length">
-<label class="class-18d"> Length(cm)</label>
+                        <input type="number" style="margin-bottom:1em;" title="Length" id="length" name="length" class="class-14b" placeholder="Enter length">
+                        <label class="class-18d"> Length(cm)</label>
 
-<input type="number" style="margin-bottom:1em;" title="Width" id="width" name="width" class="class-14b" placeholder="Enter width">
-<label class="class-18d"> Width(cm)</label>
-</div>
-</div>
-</form>
-</div>
-
-
-
-<p class="class-13"> Scandiweb Test assignment</p>
+                        <input type="number" style="margin-bottom:1em;" title="Width" id="width" name="width" class="class-14b" placeholder="Enter width">
+                        <label class="class-18d"> Width(cm)</label>
+                    </div>
+                </div>
+            </form>
+        </div>
 
 
-<span class="material-symbols-rounded class-10b">
-more_horiz
-</span>
-</div>
-</body>
+
+        <p class="class-13"> Scandiweb Test assignment</p>
+
+
+        <span class="material-symbols-rounded class-10b">more_horiz</span>
+    </div>
+  </body>
 <script type="text/javascript" src="src/JS/emptyAll_inputValue.js" async></script>
 <script type="text/javascript" src="src/JS/saveInput_jquery.js" async></script>
 </html>
