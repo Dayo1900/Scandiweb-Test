@@ -1,85 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<title>Product Add</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="keywords" content="'product', 'test'">
-<meta http-equiv="Cache-Control" content="no-cache">
-<meta http-equiv="pragma-directive:no-cache">
-<link rel="stylesheet" type="text/css" href="src/css/scandiweb_test.css">
-<link rel="stylesheet" type="text/css" media="(max-width:1200px)" href="src/css/scandiweb_test1200px.css">
-<link rel="stylesheet" type="text/css" media="(max-width:800px)" href="src/css/scandiweb_test800px.css">
-<link rel="stylesheet" type="text/css" media="(max-width:400px)" href="src/css/scandiweb_test400px.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-<link href="favicon.ico" rel="shortcut icon" type="image/x-icon"/>
-<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
-</head>
+    <head>
+        <title>Product Add</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="'product', 'test'">
+        <meta http-equiv="Cache-Control" content="no-cache">
+        <meta http-equiv="pragma-directive:no-cache">
+        <link rel="stylesheet" type="text/css" href="src/css/scandiweb_test.css">
+        <link rel="stylesheet" type="text/css" media="(max-width:1200px)" href="src/css/scandiweb_test1200px.css">
+        <link rel="stylesheet" type="text/css" media="(max-width:800px)" href="src/css/scandiweb_test800px.css">
+        <link rel="stylesheet" type="text/css" media="(max-width:400px)" href="src/css/scandiweb_test400px.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link href="favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    </head>
 
-<body>
+    <body>
     
-<div class="parent">
+        <div class="parent">
 
-<p class="class-00"> Product Add</p>
+            <p class="class-00"> Product Add</p>
 
-<div class="class-1"> 
-<a class="class-0" href="Product_List.php"> 
-<span class="material-symbols-rounded" title="Next page">arrow_forward</span> 
-</a>
-<a class="class-0" href="Product_List.php"> 
-<span class="material-symbols-rounded" title="Back">arrow_back</span> 
-</a>
-<a class="class-0" href="Product_Add.php"> 
-<span class="material-symbols-rounded" title="Delete">close</span> 
-</a>
-<a class="class-0" href="Product_List.php"> 
-<span class="material-symbols-rounded" title="Delete">home</span> 
-</a>
-<input class="class-3" type="text" name="searchbar" autocomplete="ON" placeholder="Search here...">
-<button class="class-4" type="submit" name="searchbutton"> 
-<span class="material-symbols-rounded">search</span>
-</button>
-</div>
+            <div class="class-1"> 
+                <a class="class-0" href="Product_List.php"> 
+                    <span class="material-symbols-rounded" title="Next page">arrow_forward</span> 
+                </a>
+                <a class="class-0" href="Product_List.php"> 
+                    <span class="material-symbols-rounded" title="Back">arrow_back</span> 
+                </a>
+                <a class="class-0" href="Product_Add.php"> 
+                    <span class="material-symbols-rounded" title="Delete">close</span> 
+                </a>
+                <a class="class-0" href="Product_List.php"> 
+                    <span class="material-symbols-rounded" title="Delete">home</span> 
+                </a>
+                <input class="class-3" type="text" name="searchbar" autocomplete="ON" placeholder="Search here...">
+                <button class="class-4" type="submit" name="searchbutton"> 
+                    <span class="material-symbols-rounded">search</span>
+                </button>
+            </div>
 
-<div id="print" style="text-align:center; margin-top:1.5%; color:#006600;">
-</div>
+            <div id="print" style="text-align:center; margin-top:1.5%; color:#006600;"></div>
 
-<div class="class-15">
-  <form class="pageForm" onsubmit="save(event);"> 
+            <div class="class-15">
+                <form class="pageForm" onsubmit="save(event);"> 
     
-<div class="class-6">
-<span style="margin-left:0.5em; font-weight:bold;"> Product Add</span>
-<div class="class-19">
-<button  class="class-12b" type="submit" title="Save new product" id="submitForm"> Save</button>
-
-<a class="class-12c" href="Product_List.php" title="Cancel product">Cancel</a>
-</div>
-</div>
-
+                    <div class="class-6">
+                        <span style="margin-left:0.5em; font-weight:bold;"> Product Add</span>
+                        <div class="class-19">
+                            <button  class="class-12b" type="submit" title="Save new product" id="submitForm"> Save</button>
+                            <a class="class-12c" href="Product_List.php" title="Cancel product">Cancel</a>
+                        </div>
+                    </div>
 
 
-<div id="product_form">
-<div class="class-14" id="divSKU">
-<span style="float:left;"> SKU </span>
-<input type="text" id="sku" name="sku" title="Product SKU" class="class-14b" placeholder="Product SKU" required>
-</div>
 
-<div class="class-14" id="divNAME">
-<span style="float:left;"> Name </span>
-<input type="text" id="name" name="name" title="Product name" class="class-14b" placeholder="Product Name" required>
-</div>
+                    <div id="product_form">
+                        <div class="class-14" id="divSKU">
+                            <span style="float:left;"> SKU </span>
+                                <input type="text" id="sku" name="sku" title="Product SKU" class="class-14b" placeholder="Product SKU" required>
+                        </div>
+
+                        <div class="class-14" id="divNAME">
+                            <span style="float:left;"> Name </span>
+                            <input type="text" id="name" name="name" title="Product name" class="class-14b" placeholder="Product Name" required>
+                        </div>
 
 
-<div class="class-14" id="divPRICE">
-<span style="float:left;"> Price($) </span>
-<input type="number" id="price" name="price" title="Product price" class="class-14b" placeholder="Product price" required>
-</div>
-</div>
+                        <div class="class-14" id="divPRICE">
+                            <span style="float:left;"> Price($) </span>
+                            <input type="number" id="price" name="price" title="Product price" class="class-14b" placeholder="Product price" required>
+                        </div>
+                    </div>
 
 
 <div class="class-15b">
