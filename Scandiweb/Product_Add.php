@@ -126,10 +126,6 @@
                     </div>
                 </div>
             </form>
-        </div>
-
-
-
         <p class="class-13"> Scandiweb Test assignment</p>
 
 
